@@ -15,6 +15,7 @@ Through [Glot.io](http://glot.io) this bot intends to implement a way to run cod
 
 - [ ] Elixir
 - [ ] Elm
+- [ ] Ocaml
 - [ ] Haskell
 - [ ] Clojure
 - [ ] Scala

@@ -7,8 +7,9 @@ Through [Glot.io](http://glot.io) this bot intends to implement a way to run cod
 ## Priorities
 
 - [X] Correctly define consumer responsibilities and separations
-- [ ] Implement command to run code
+- [X] Implement command to run code
 - [X] Modularize commands, similar to cogs
+- [ ] Handle edge cases
 - [ ] Implement languages' implicit structure, prioritized as seen in [Implemented Languages](#implemented-languages)
 
 ## Implemented Languages

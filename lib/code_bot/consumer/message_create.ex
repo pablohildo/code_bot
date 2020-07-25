@@ -13,7 +13,6 @@ defmodule CodeBot.Consumer.MessageCreate do
         "=help " <> command ->
           Help.command(msg, command)
         _->
-          IO.puts("sapolosauro rex")
           :ignore
       end
     end

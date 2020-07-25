@@ -9,9 +9,9 @@ defmodule CodeBot.Helpers.Outputs do
     }
   end
 
-  def expected_error(message) do
+  def warning(message) do
     %Embed{
-      title: "Expected Error (stderr)",
+      title: "Sorry about that, but...",
       description: message,
       color: 0xFCF816
     }

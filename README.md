@@ -1,26 +1,50 @@
 # CodeBot
 
-CodeBot is a Work in Progress!
-
 Through [Glot.io](http://glot.io) this bot intends to implement a way to run code through Discord text chat. Main priorities right now are functional programming languages, since it's main use case is a functional programming Discord server (@funcional-ssa).
 
-## Priorities
+## Usage
 
-- [X] Correctly define consumer responsibilities and separations
-- [X] Implement command to run code
-- [X] Modularize commands, similar to cogs
-- [ ] Handle edge cases
-- [ ] Implement languages' implicit structure, prioritized as seen in [Implemented Languages](#implemented-languages)
+```
+iex -S mix
+CodeBot.Application.start(:normal, nil)
+```
 
-## Implemented Languages
+## ToDo
 
-- [ ] Elixir
-- [ ] Elm
-- [ ] Ocaml
-- [ ] Haskell
-- [ ] Clojure
-- [ ] Scala
-- [ ] F#
-- [ ] Rust
-- [ ] Idris
-- [ ] Whatever comes next (no more fp langs at Glot.io, seemingly)
+- [ ] Prepare deploy automation
+- [ ] Internationalize!
+
+## Supported Languages
+
+- Elixir
+- Elm
+- Ocaml
+- Haskell
+- Clojure
+- Scala
+- F#
+- Rust
+- Idris
+- Bash
+- C
+- CoffeScript
+- C++
+- Crystal
+- C#
+- D
+- Erlang
+- Go
+- Groovy
+- Java
+- Javascript
+- Julia
+- Kotlin
+- Lua
+- Mercury
+- Nim
+- Perl
+- PHP
+- Python
+- Ruby
+- Swift
+- Typescript
